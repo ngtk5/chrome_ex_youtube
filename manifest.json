@@ -1,0 +1,12 @@
+{
+  "name": "Hide short videos in YouTube",
+  "description": "Hide short videos on the registered channel page.",
+  "version": "0.1.9.4",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
